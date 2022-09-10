@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    width: min(calc(100% - 2rem), 80rem);
+    margin-inline: auto;
+  }
+}
