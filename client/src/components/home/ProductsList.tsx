@@ -33,7 +33,7 @@ export const ProductsList: FC<IProps> = () => {
   };
 
   return (
-    <section className="relative -mt-[100vh] z-60 min-h-screen bg-black/90 text-white py-16">
+    <section className="relative -mt-[100vh] z-50 min-h-screen bg-[#1b1b1b] text-white py-16">
       <Container>
         <div className="space-y-6">
           <h1 className="text-center text-3xl font-semibold tracking-wide md:text-5xl">New Promos</h1>
