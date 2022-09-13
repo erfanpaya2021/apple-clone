@@ -7,4 +7,10 @@
     width: min(calc(100% - 2rem), 80rem);
     margin-inline: auto;
   }
+
+  .borderGradient {
+    text-align: center;
+    background: linear-gradient(to right, #ec4899, #8b5cf6) left bottom no-repeat;
+    background-size: 100% 1.5px;
+  }
 }
