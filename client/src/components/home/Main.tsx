@@ -5,7 +5,7 @@ import MainComponent from './MainComponent';
 
 export const Main = () => {
     return (
-       <main className='bg-[#E7ECEE] relative h-[200vh]'>
+       <main className='bg-[#E7ECEE] relative bg-fixed h-[200vh]'>
         <Container>  
            <Navbar/> 
            <MainComponent/>
