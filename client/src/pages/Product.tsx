@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import { Navbar, Container } from "@/components/layout";
+import { Container } from "@/components/layout";
 
 import { IMAGES } from "@/utils/constants";
 import { Button } from "@/components/controls";
@@ -18,8 +18,6 @@ const product = {
 export const Product: FC = () => {
   return (
     <>
-      <Navbar />
-
       {/* Product */}
       <main className="bg-[#E7ECEE] min-h-screen py-16 md:py-24">
         <Container>
